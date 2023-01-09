@@ -12,7 +12,7 @@ setInterval(function () {
     "MMMM Do YYYY, h:mm:ss a"
   );
 
-  var currentHour = 9; //moment().hour();
+  var currentHour = moment().hour();
 
   var selectedSrc = "";
 
